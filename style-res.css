@@ -1,0 +1,43 @@
+@media(max-width: 1200px){
+    h1 {
+        font-size: 2em;
+        padding: 1em 1em 0em 1em;
+    }
+
+    .header-text {
+        padding: 1em 1em 2em 1em;
+    }
+    
+    .container {
+        padding: 1em 1em 1em 1em;
+        height: 100%;
+    }
+
+    .text-wrap {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'left'
+            'right';
+        grid-gap: 0em;
+    }
+
+    .firsti-column { grid-area: left; }
+    
+    .second-column { grid-area: right; }
+
+    .cards {
+        padding: 1em 1em 1em 1em;
+    }
+
+    .text { padding: 1em; }
+
+    .third-text {
+        grid-template-columns: 1fr;
+    }
+
+    .first-box, .second-box{
+        padding: 1em 1em 1em 1em;
+    }
+
+}
